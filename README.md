@@ -1,7 +1,3 @@
 # node-jwt-auth-example
 
 A way to do JWT authentication without Passport
-
-One thing I do see is having the actions tied to the model might not be that great
-
-"...express-jwt is built on top of the jsonwebtoken package and does a bunch of additional cool things. You still use jsonwebtoken to sign and verify your JWTs, but express-jwt helps you protect routes, checks JWTs against a secret, and creates a req.user from the payload of the token if it can verify it."
